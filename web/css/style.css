@@ -171,7 +171,7 @@ div.modal-body h3{
     outline: none;
 }
 .more a{
-	font-size: 14px;
+	font-size: 18px;
     text-transform: capitalize;
     text-decoration: none;
     padding: 8px 40px;
@@ -230,6 +230,11 @@ button.close {
 	right: 0;
 }
 /*-- banner-bottom --*/
+
+#about{
+    background: #eee048 none repeat scroll 0 0;
+}
+
 .banner-bottom{
 	padding:5em 0 0;
 }
@@ -286,7 +291,7 @@ button.close {
 }
 .banner-bottom-image-text-left p{
 	color:#3D3D3D;
-	margin:3em 0;
+	margin:1.6em 0;
 	line-height:1.8em;
 }
 .banner-bottom-image-text-left h4{
@@ -340,7 +345,7 @@ button.close {
 }
 
 .team-bottom p{
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
 
@@ -642,8 +647,8 @@ a.icon-button.google-plus:hover .icon-google-plus:before{
 }
 .team-bottom p{
 	color: #fff;
-    width: 60%;
-    margin:3em auto 4em;
+    width: 100%;
+    margin:1.5em auto 1.5em;
     text-align: center;
     line-height: 1.8em;
 }
@@ -879,11 +884,12 @@ div#myTabContent {
 }
 /*-- //testimonials --*/
 /*-- contact --*/
+
 .w3agile_contact_left{
 	padding:5em 4em 5em 13em;
 }
 .w3agile_contact_right{
-	padding:9.9em 13em 5em 5em;
+	padding:1em 13em 5em 1em;
 }
 .w3agile_contact_left{
 	background:#F7F7F7;
@@ -955,14 +961,14 @@ div#myTabContent {
     padding-right: 2em;
 }
 .w3agile_contact_right_agileinfo {
-    margin: 5em 0 0;
+    margin: 2em 0 0;
 }
 .w3agile_contact_right_agileinfo p i {
     font-style: normal;
     padding-left: 3em;
 }
 .w3_copy_right{
-	margin:7.2em 0 0;
+	margin:1.2em 0 0;
 }
 .w3_copy_right p{
 	color:#212121;
@@ -1038,19 +1044,24 @@ div#myTabContent {
 		font-size: 25px;
 	}
 	.w3_copy_right {
-		margin:5.4em 0 0;
+		margin:1.4em 0 0;
 	}
 	.w3agile_contact_left {
 		padding: 5em 4em 5em 11em;
 	}
 	.w3agile_contact_right {
-		padding: 9.8em 13em 5em 5em;
+		padding: 1.8em 13em 1em 5em;
 	}
 }
 @media (max-width: 1366px){
 	.w3ls_banner_info {
 		padding: 8em 0 0;
 	}
+
+    .w3ls_banner_info h4{
+        color: #fff;
+        margin-bottom: 2em;
+    }
 	.w3ls_banner_info p {
 		margin-bottom: 4em;
 	}
@@ -1097,7 +1108,7 @@ div#myTabContent {
 		padding: 4em 4em 4em 5em;
 	}
 	.w3agile_contact_right {
-		padding:9.55em 3em 5em 4em;
+		padding:1.55em 3em 1em 4em;
 	}
 }
 @media (max-width: 1080px){
@@ -1233,7 +1244,7 @@ div#myTabContent {
 		padding-left: 1em;
 	}
 	.w3_copy_right {
-		margin: 7.3em 0 0;
+		margin: 1em 0 0;
 	}
 }
 @media (max-width:991px){
@@ -1315,7 +1326,7 @@ div#myTabContent {
 	}
 	.team-bottom p {
 		width: 100%;
-		margin: 2em auto 3em;
+		margin: 1.5em auto 1.5em;
 	}
 	.reservation {
 		width: 100%;
@@ -1344,7 +1355,7 @@ div#myTabContent {
 		padding: 3em 10em;
 	}
 	.w3_copy_right {
-		margin: 3em 0 0;
+		margin: 1em 0 0;
 	}
 }
 @media (max-width:800px){
@@ -1550,7 +1561,7 @@ div#myTabContent {
 		padding: 2em 0;
 	}
 	.team-bottom p {
-		margin: 2em auto;
+		margin: 1em auto;
 	}
 	.team-bottom{
 		background-position: -350px 0px;
