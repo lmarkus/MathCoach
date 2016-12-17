@@ -990,10 +990,20 @@ div#myTabContent {
 .agileits_about_grid_left{
 	margin:4em 0 0em;
 }
-.agileits_about_grid_left p{
+.agileits_about_grid_left p {
 	color:#999;
 	line-height:1.8em;
 	margin:3em 0 0;
+}
+
+.wthree_banner_bottom_right h4 {
+    margin: 1em 0 1em 0;
+}
+.wthree_banner_bottom_right ul{
+    padding-left: 1em;
+}
+.wthree_banner_bottom_right li{
+    color:#999
 }
 /*-- //about --*/
 /*-- to-top --*/
