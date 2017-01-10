@@ -1,0 +1,15 @@
+/* TEAM */
+
+	Sensei : Lenny Markus
+	Twitter: @LennyMarkus
+	From: Here and There
+
+/* THANKS */
+
+	Inspiration: Diana Chang
+	From: The World
+
+
+/* SITE */
+	Doctype:HTML5
+	IDE: WebStorm 11
