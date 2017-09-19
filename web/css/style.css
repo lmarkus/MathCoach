@@ -919,6 +919,9 @@ select#country, select#country1 {
     margin: 3em 0 0;
 }
 
+.testimonial > .bs-example {
+    text-align: center;
+}
 .testimonial p:before {
     content: "“";
     font-family: cursive;
@@ -936,6 +939,16 @@ select#country, select#country1 {
 }
 .testimonial p {
     font-style: italic;
+}
+
+#myTab {
+    width: 100%;
+    text-align: center;
+}
+
+#myTab > li {
+    float: none;
+    display: inline-block;
 }
 
 .nav-tabs > li > a {
