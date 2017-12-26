@@ -916,7 +916,14 @@ select#country, select#country1 {
 /*-- //gallery --*/
 /*-- testimonials --*/
 .testimonials-grids {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 3em 0 0;
+}
+
+.testimonial-grids {
+
 }
 
 .testimonial > .bs-example {
@@ -926,16 +933,18 @@ select#country, select#country1 {
     content: "“";
     font-family: cursive;
     font-size: 6em;
-    left: -10px;
-    position: relative;
-    top: 24px;
+    display: block;
+    text-align: center;
 }
-.testimonial p:after {
-    content: "”";
-    font-family: cursive;
-    font-size: 6em;
-    position: relative;
-    top: 30px;
+
+.testimonial {
+    border:solid 1px;
+    border-radius: 1em;
+    margin:1em;
+    padding: 4em 2em 2em;
+    min-height:32em;
+    width: 24em;
+
 }
 .testimonial p {
     font-style: italic;
@@ -999,7 +1008,7 @@ div#myTabContent {
 }
 
 .tabcontent-grids h4 {
-    font-size: 1em;
+    font-size: 1.5em;
     color: #212121;
     margin: 1em 0;
 }
@@ -1016,7 +1025,6 @@ div#myTabContent {
 .tabcontent-grids p {
     color: #999;
     line-height: 1.8em;
-    width: 60%;
     margin: 0 auto;
 }
 
@@ -1037,7 +1045,7 @@ div#myTabContent {
 }
 
 .tabcontent-grids {
-    padding: 2em 0 0;
+
 }
 
 /*-- //testimonials --*/
